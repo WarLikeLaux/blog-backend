@@ -105,7 +105,7 @@
                   </div>
                   <div class="details mt-20">
                     <h3>{{ post.title }}</h3>
-                    {{ post.text }}
+                    {{ post.text|truncatechars:200 }}
                     <br>
                     <a class="button" href="#">Read More <i class="ti-arrow-right"></i></a>
                   </div>
